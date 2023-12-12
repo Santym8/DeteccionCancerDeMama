@@ -1,7 +1,5 @@
 from django import forms
 import numpy as np
-from sklearn import preprocessing
-import pandas as pd
 
 class DataForm(forms.Form):
     radius = forms.FloatField(label='Radio', required=True)
