@@ -30,6 +30,9 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CSRF_TRUSTED_ORIGINS = ['https://deteccion-cancer-de-mama-9x98.onrender.com']
+
+
 
 # Application definition
 
